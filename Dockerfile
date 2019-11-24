@@ -11,7 +11,6 @@ RUN apk add --update --no-cache \
     rm -rf /usr/lib/ruby/gems/*/cache/* && \
     apk del libressl-dev build-base ruby-dev && \
     rm -rf /var/cache/apk/* /tmp && mkdir -p /tmp
-    
 
 COPY fs/ /
 

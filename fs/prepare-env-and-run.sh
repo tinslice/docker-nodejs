@@ -15,7 +15,7 @@ fi
 if [ -n "$NPM_USER" ]; then
   echo "$NPM_USER_EMAIL" >> ~/.npmrc
   echo "always-auth=true" >> ~/.npmrc
-  echo "_auth="`echo -n ${NPM_USER}:${NPM_PASS} | base64` >> ~/.npmrc
+  echo "_auth="$(echo -n ${NPM_USER}:${NPM_PASS} | base64) >> ~/.npmrc
 fi;
 
 exec "$@"
