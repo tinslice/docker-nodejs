@@ -1,8 +1,13 @@
 # docker-nodejs
 
-[![license](https://img.shields.io/github/license/tinslice/docker-supervisord.svg)](https://github.com/tinslice/docker-supervisord)
+[![Docker Automated build](https://img.shields.io/docker/cloud/automated/tinslice/nodejs.svg?style=flat)](https://hub.docker.com/r/tinslice/nodejs/builds)
+[![Docker Build Status](https://img.shields.io/docker/cloud/build/tinslice/nodejs.svg?style=flat)](https://hub.docker.com/r/tinslice/nodejs/builds)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tinslice/nodejs.svg?style=flat)](https://hub.docker.com/r/tinslice/nodejs/)
+[![license](https://img.shields.io/github/license/tinslice/docker-nodejs.svg)](https://github.com/tinslice/docker-nodejs)
 
-Docker image with node js and other usefull tools for building and testing web applications.
+Docker image with node js and other useful tools for building and testing web applications.
+
+Available images: `latest`, `8.16.0-alpine`.
 
 ## Usage
 
