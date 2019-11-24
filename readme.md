@@ -7,7 +7,7 @@
 
 Docker image with node js and other useful tools for building and testing web applications.
 
-Available images: `latest`, `8.16.2-alpine`, `8.16.0-alpine`.
+Available images: `latest`, `10.17.0-alpine`, `8.16.2-alpine`, `8.16.0-alpine`.
 
 ## Usage
 

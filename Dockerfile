@@ -1,4 +1,4 @@
-FROM node:8.16.2-alpine
+FROM node:10.17.0-alpine
 
 RUN apk add --update --no-cache \
             bash git openssh \
